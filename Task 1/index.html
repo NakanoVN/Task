@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Halaman Profil Biodata</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      padding: 10px 0;
+    }
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin: 0 20px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .judul-gambar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .judul {
+      flex: 1;
+      font-size: 32px;
+      font-weight: bold;
+      padding-right: 20px;
+    }
+
+    .gambar {
+      flex: 1;
+      text-align: center;
+    }
+
+    .gambar img {
+      max-width: 300px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+    table, th, td {
+      border: 1px solid #999;
+    }
+
+    th, td {
+      padding: 20px;
+      text-align: center;
+      word-wrap: break-word;
+    }
+
+    .table-title {
+      margin-bottom: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .pemisah {
+      border: none;
+      border-top: 2px solid #ccc;
+      margin: 0 auto;
+      max-width: 900px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- SECTION 1: Menu -->
+<header>
+  <nav>
+    <ul>
+      <li><a href="#beranda">Beranda</a></li>
+      <li><a href="#biodata">Biodata</a></li>
+      <li><a href="#portofolio">Portofolio</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- SECTION 2: Judul dan Gambar -->
+<section class="section" id="beranda">
+  <div class="container">
+    <div class="judul-gambar">
+      <div class="judul">
+        Halo, saya Jibran Syawal A.<br>
+        <span style="font-size: 18px; font-weight: normal;">
+          Saya adalah seorang pelajar yang sedang belajar untuk menjadi website developer.
+        </span>
+      </div>
+      <div class="gambar">
+        <img src="./nino.jpg" alt="Foto Profil">
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="pemisah">
+
+<!-- SECTION 3: About Me -->
+<section class="section" id="biodata">
+  <div class="container">
+    <div class="table-title">About Me</div>
+    <table>
+      <tr>
+        <td><strong>Full Name</strong><br>Jibran Syawal A.</td>
+        <td><strong>Education</strong><br>SMK</td>
+        <td><strong>Pekerjaan</strong><br>Pelajar</td>
+      </tr>
+      <tr>
+        <td><strong>Contact</strong><br>jibransy73@gmail.com</td>
+        <td><strong>Hobi</strong><br>Membaca dan bermain game</td>
+        <td><strong>Alamat</strong><br>Bekasi</td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+<hr class="pemisah">
+
+<!-- SECTION 4: Portofolio -->
+<section class="section" id="portofolio">
+  <div class="container">
+    <div class="table-title">Portofolio</div>
+    <table>
+      <tr>
+        <th>No</th>
+        <th>Nama Proyek</th>
+        <th>Deskripsi</th>
+        <th>Tahun</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Website Kebudayaan Daerah Bali</td>
+        <td>Tugas sekolah membuat website html sederhana mengenai kebudayaan Bali</td>
+        <td>2023</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Website Pemasaran Jasa</td>
+        <td>Tugas sekolah membuat website html sederhana mengenai jasa service software dan hardware</td>
+        <td>2024</td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+</body>
+</html>
